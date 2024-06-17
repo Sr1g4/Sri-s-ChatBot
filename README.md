@@ -1,5 +1,5 @@
 Chatbot on React.js with openai API integration.
-# Sri's ChatBot
+# Sri's ChatBot (Code is not put in correct stucture) 
 ## This React-based chatbot integrates with Node.js and leverages the power of OpenAI's GPT models to deliver a responsive and intelligent conversational experience. It utilizes WebSocket communication through socket.io for real-time messaging and includes features such as dynamic message rendering using framer-motion for smooth animations.
 
 # Features
