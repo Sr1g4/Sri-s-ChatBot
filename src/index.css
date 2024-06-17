@@ -1,0 +1,27 @@
+/* index.css */
+@import "./tailwind.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+[data-theme='dark'] {
+  --bg-color: #1a1a1a;
+  --text-color: #f3eeea;
+}
+
+[data-theme='light'] {
+  --bg-color: white;
+  --text-color: #1a1a1a;
+}
+
